@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic, strong)UILabel *label;
+@property (nonatomic, strong)UIScrollView *scrollView;
+@property (nonatomic, strong)NSMutableArray *referenceTitle;
+@property (nonatomic, strong)NSArray *refernceDescription;
 @end
 
