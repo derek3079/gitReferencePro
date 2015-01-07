@@ -17,13 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
     
     ViewController *VC = [ViewController new];
     UINavigationController *NC = [[UINavigationController alloc]initWithRootViewController:VC];
     self.window.rootViewController = NC;
     
+    [[UINavigationBar appearance] setBarTintColor:[UIColor greenColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+
+    
+    return YES;
     return YES;
 }
 

@@ -13,5 +13,8 @@
 @property (nonatomic, strong)UIScrollView *scrollView;
 @property (nonatomic, strong)NSMutableArray *referenceTitle;
 @property (nonatomic, strong)NSArray *refernceDescription;
+
+- (void)createSubviewForViewController: (NSInteger)Index;
+- (void)createSubviewForViewController2: (NSInteger)Index;
 @end
 
